@@ -1,0 +1,74 @@
+/* Resetting some basic elements */
+html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Styling the header */
+    header {
+        background-color: #39FF14; /* Neon green color */
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header h1 {
+        margin: 0;
+        color: black;
+        font-size: 24px;
+    }
+    
+    /* Styling navigation links */
+    nav {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+        text-align: center;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    nav ul li a:hover {
+        color: #39FF14; /* Neon green on hover */
+    }
+    
+    /* Content styling */
+    .content {
+        padding: 20px;
+        text-align: center;
+        
+    }
+    
+    /* Footer styling */
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #39FF14; /* Neon green color */
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+    }
